@@ -1,0 +1,300 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  	  background-color: #ffffff;
+  padding: 10px 0;
+/* sombra del encabezado */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.); 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.horizontal-list li {
+  color: #888888;
+  margin-right: 10px;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+
+  background-color: #ffffff;
+  color: #333333;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #ff6600;
+}
+
+
+
+/* Estilos para el contenido principal */
+main {
+	margin: 135px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 800;
+
+
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #52595D;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1800px;
+  margin: 10 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 40px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin-bottom: 5px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+
+/* Estilos Adicionales para el contenido principal */
+
+.Principal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.Imagen1{
+    display: flex;
+    
+}
+
+.campo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    
+}
+
+.formato1 {
+    
+    width: 95%;
+    height: 100%;
+    margin-right: 0px; 
+}
+
+.Principal1 {
+    padding: 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Principal1 h2 {
+    font-size: 35px;
+    line-height: 1.2;
+    font-weight: 900;
+    color: #00233b;
+    
+}
+h3, .h3 {
+    
+
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 900;
+    text-align: center;
+   
+}
+.Principal1 button {
+
+    padding: 20px 20px;
+    background-color: #f60;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 45px;
+    letter-spacing: 1px;
+
+}
+.inscribete button {
+
+    padding: 20px 20px;
+    background-color: #fff;
+    background-size: cover;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #f60;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 45px;
+    letter-spacing: 1px;
+
+}
+
+
+
+.titulaciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+    padding: 40px;
+}
+
+.carrera {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.Matricula{
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#titulo{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    line-height: 58px;
+    font-weight: 900;
+}
+
+#parrafo{
+    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #00233b;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.experto{
+    display: flex;
+    flex-wrap: wrap;
+    text-align:left ;
+}
